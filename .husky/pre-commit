@@ -1,0 +1,8 @@
+
+# Ejecuta ESLint para validar el código antes del commit
+npm run lint
+
+# Ejecuta Prettier para formatear el código antes del commit
+npx prettier . --write
+
+# Si alguna de las verificaciones falla, el commit será abortado
